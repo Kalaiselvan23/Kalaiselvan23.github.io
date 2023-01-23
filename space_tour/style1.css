@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+*
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: skyblue;
+}
+body
+{
+    background: url("./space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+.logo
+{
+    display: flex;
+    align-content: center;
+}
+.logo img
+{
+    height:5vh;
+    width:5vh;
+    margin:5vh;
+}
+.navbar
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:10vh;
+    margin-top: 5vh;
+}
+.navbar .menu-items
+{
+    display: flex;
+    justify-content:space-around;
+    width:50vw;
+    height:10vh;
+    backdrop-filter:blur(20px);
+    align-items: center;
+    /* padding:1vh; */
+}
+.menu-items a
+{
+    color:white;
+    text-decoration: none;
+}
+.line
+{
+    height:0.5px;
+    width:50vw;
+    background-color: white;
+    margin:5vh;
+}
+.menu-items a span
+{
+    font-weight: bolder;
+    margin:2vh;
+}
+.menu-items a
+{
+    /* background-color: yellow; */
+    padding:4vh;
+    text-align: center;
+    /* border-bottom:4px solid white; */
+    /* transform:scaleX(0);
+    transition:transform 0.5s ease-in-out; */
+}
+.menu-items div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    
+}
+.menu-items a::before
+{
+    border-bottom: 5px solid white;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+} 
+.menu-items a:hover
+{
+    /* transform: scaleX(1); */
+    border-bottom: 4px solid white;
+}
+.main-area
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left:20vw;
+    margin-top:10vh;
+}
+.content-para
+{
+    height:20vh;
+    line-height:3vh;
+    width:30vw;
+    font-size:larger;
+    font-weight: bolder;
+}
+.para-head
+{
+    position:absolute;
+    top:15vh;
+    left:7vw;
+    height:20vh;
+    /* background-color: blue; */
+    font-size:30px;
+    font-weight:bolder;
+}
+.para-head p
+{
+    color: white;
+}
+.para-head p::before
+{
+    content:"01";
+    margin:1vh;
+    color:red;
+    font-weight: bolder;
+}
+.menu-tab
+{
+    display: flex;
+    justify-content:space-between;
+    width:20vw;
+    position:absolute;
+    top:25vh;
+    right:18vw;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    margin-left:5vw;
+}
+.empty-div
+{
+    height:1px;
+    background-color:white;
+    opacity:0.4;
+}
+#planet-head
+{
+    font-size:100px;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+    height:5vh;
+    margin-top:0;
+    color: white;
+}
+.bottom-content
+{
+    display: flex;
+    justify-content:space-between;
+    width:20vw;
+    
+}
+.values1::before
+{
+    content:"AVG.DISTANCE";
+    color:skyblue;
+    display: block;
+    margin:1vh;
+    text-align: center;
+    height:30px;
+    font-weight: bold;
+    margin-bottom:0.1vh;
+}
+.values2::before
+{
+    content:"EST . TRAVEL TIME";
+    display: block;
+    margin:1vh;
+    margin-bottom:0.1vh;
+    text-align: center;
+    height:30px;
+    font-weight: bold;
+}
+.values1,.values2
+{
+    text-align: center;
+}
+.menu-tab p
+{
+    height:3vh;
+    font-weight: bold;
+}
+.menu-tab p:hover
+{
+    color: white;
+    /* border-bottom:2px solid white; */
+    text-decoration:underline;
+    text-underline-position: under;
+}
+.planet-content
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+/* .mars
+{
+    display: none;
+}
+.europa
+{
+    display: none;
+}
+.titan
+{
+    display: none;
+}
+.moon
+{
+    /* display: none; */
+/* #mars,#europa,#titan
+{
+    visibility: hidden;
+} */
+#moon,#europa,#titan
+{
+    display:none;
+}
+/* .planet-content
+{
+    animation:animation 0.5s;
+} */
+.planet-content .planet-pic
+{
+    animation:animation-left 1s;
+}
+.planet-content .content
+{
+    animation:animation-right 1s;
+}
+@keyframes animation-left
+{
+    from
+    {
+        translate:-50vw;
+        opacity:0.2;
+    }
+}
+@keyframes animation-right {
+    from{translate:50vw}
+    
+}
