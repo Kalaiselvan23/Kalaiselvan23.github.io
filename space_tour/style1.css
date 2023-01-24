@@ -106,7 +106,7 @@ body
 .content-para
 {
     height:20vh;
-    line-height:3vh;
+    line-height:4vh;
     width:30vw;
     font-size:larger;
     font-weight: bolder;
@@ -258,4 +258,98 @@ body
 @keyframes animation-right {
     from{translate:50vw}
     
+}
+.crew-area
+{
+    /* display: flex; */
+    margin-top:7vh;
+}
+.crew-content
+{
+    display: flex;
+    justify-content:space-between;
+    /* background-color: black; */
+    margin:10vh;
+    /* overflow: hidden; */
+}
+.content-crew
+{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    font-size:15px;
+    color:skyblue;
+    font-weight:500;
+    margin-left:10vw;
+    /* background-color:yellow; */
+    margin-top:5vh;
+    margin-bottom:2vh;
+    /* margin:10vw; */
+}
+#crew-head
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px;
+    margin-bottom:4vh;
+    color: white;
+}
+.crew-body
+{
+    background: url("./space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#crew-head::before
+{
+    content:"FLIGHT ENGINEER";
+    display: block;
+    font-size:30px;
+    margin-bottom:2vh;
+    opacity: .7;
+}
+.dots
+{
+    /* background-color: black; */
+    position:absolute;
+    top:80%;
+    left:15.5%;
+    display: flex;
+    justify-content: space-between;
+    width:6vw;
+    
+}
+.dots p
+{
+    background-color:whitesmoke;
+    width:1vw;
+    height:2vh;
+    border-radius:50%;
+    opacity:0.2;
+    transition:opacity 0.2s ease-in-out;
+}
+.dots p:hover
+{
+    opacity: 0.8;
+}
+.crew-body
+{
+    /* overflow-y: auto; */
+    height:100%;
+    width:100%;
+   
+}
+.crew-pic
+{
+    animation:move-down 1s ease;
+}
+.content-crew
+{
+    animation:move-right 0.5s ease-in;
+}
+@keyframes move-down {
+    from{transform:translateY(25%);
+    opacity: 0.4;}
+}
+@keyframes move-right {
+    from{transform:translateX(-25%)}
 }
