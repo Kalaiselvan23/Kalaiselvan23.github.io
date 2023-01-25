@@ -353,3 +353,120 @@ body
 @keyframes move-right {
     from{transform:translateX(-25%)}
 }
+.tech-body
+{
+    background: url("./space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    overflow: hidden;
+}
+/* .tech-area
+{
+    display: flex;
+    justify-content: space-between;
+} */
+.content-tech
+{
+    display: flex;
+    justify-content:space-evenly;
+    height:100%;
+    width:100%;
+}
+.left
+{
+    /* background-color: blue; */
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin:3vw; */
+    margin-left: 5vw;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:10vh;
+    height:70vh;
+}
+.tech-head
+{
+    font-size:50px;
+    margin-bottom:0.2vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tech-head::before
+{
+    content:"THE TERMINOLOGY....";
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:medium;
+    margin:1vh;
+    font-weight: 400;
+}
+.tech-para
+{
+    line-height:20px;
+    font-weight:bold;
+}
+/* .tech-area
+{
+    display:none;
+}
+/* .tech-area
+{
+    display:block;
+} */ 
+#space-port,#launc-vehicle
+{
+    display:none;
+}
+.navigation
+{
+    position:absolute;
+    /* background-color:blue; */
+    height:30vh;
+    left:5vw;
+    width:5vw;
+    top:43%;
+    left:7%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.number
+{
+    border-radius:50%;
+    border:1px solid skyblue;
+    /* background-color:white; */
+    color:white;
+    height:8vh;
+    width:3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition:all 0.5s ease-in-out;
+    /* animation:move-right 0.5s ease-in; */
+}
+.number:hover
+{
+    background-color:white;
+    color:blue;
+}
+.left
+{
+    animation:move-down 1s ease;
+    
+}
+.right
+{
+    animation:move-left 0.5s ease-in;
+}
+@keyframes move-left
+{
+    from{transform:translateX(25%);
+    opacity:0.3}
+}
