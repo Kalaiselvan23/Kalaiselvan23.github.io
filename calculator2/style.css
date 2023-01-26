@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Titillium+Web:wght@600&display=swap');
+:root
+{
+    --background: #17062A;
+    --display:#1E0836;
+    --buttons:#1E0836;
+    --button-color:#331B4D;
+    --number-hover-bg:#6B34AC;
+    --number-hover:white;
+    --text-color:yellow;
+    --equal-color:blue;
+    --ball-color:white;
+    --display-text:yellow;
+    --button-text:yellow;
+    --head-color:yellow;
+    --equal-bg:white;
+}
+*
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:5%;
+    background-color:var(--background);
+    /* color:var(--text-color); */
+}
+.calculator
+{
+    height:80vh;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+/* .brand
+{
+    display: none;
+} */
+.display
+{
+    width:90%;
+    height:15vh;
+    background-color:var(--display);
+    border-radius:10px;
+    display: flex;
+    color:var(--display-text);
+    justify-content: flex-end;
+    align-items: center;
+}
+.buttons
+{
+    height:50%;
+    background-color:var(--buttons);
+    width:82%;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    column-gap:0.2vw;
+    border-radius: 10px;
+    align-items: center;
+    padding:2vh;
+}
+.button
+{
+    background-color:var(--button-color);
+    height:5vh;
+    margin:1.5vh;
+    border-radius:5px;
+    text-align:center;
+    display: flex;
+    color:var(--button-text);
+    justify-content:center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:500;
+    font-size:3vh;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.button17
+{
+    grid-column:1/ span 2;
+}
+.button18
+{
+    grid-column: 3/span 2;
+}
+.button:hover
+{
+    background-color:var(--number-hover-bg);
+    color:var(--number-hover);
+}
+.button18:hover
+{
+    background-color:var(--equal-bg);
+    color:var(--equal-color);
+}
+.head
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    color:var(--head-color);
+    width:90%;
+    height:5vh;
+    align-items: center;
+}
+.brand
+{
+    margin-left:1vw;
+    font-family: 'Titillium Web', sans-serif;
+}
+#brand
+{
+    font-weight: 900;
+}
+.themeslide
+{
+    background-color:var(--display);
+    height:3vh;
+    width:4vw;
+    border-radius:10px;
+    margin-right:1vw;
+    display: flex;
+    align-items: center;
+}
+.ball
+{
+    background-color:var(--ball-color);
+    height:2vh;
+    width:1vw;
+    border-radius:50%;
+    margin-top:2px;
+    margin:0.5vh;
+    transition:all 0.5s ease-in-out
+}
+.themecount
+{
+    display: flex;
+    justify-content:space-around;
+    width:4vw;
+    font-size: x-small;
+}
+.theme::before
+{
+ content:"THEME";
+ /* display:block; */
+ /* background-color: yellow; */
+ position: absolute;
+ top:16.5vh;
+ right:41.5vw;
+ margin-right:1vw;
+ font-size: x-small;
+ margin-right:0;
+}
+.display p
+{
+    font-size: 50px; 
+    margin-right:1vw;
+    /* background-color:white; */
+    max-width:90%;
+}
