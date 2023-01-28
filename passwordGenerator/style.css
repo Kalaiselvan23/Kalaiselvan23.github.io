@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+*
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body
+{
+    background-color: #131218;
+    color:whitesmoke;
+}
+.container
+{
+    /* background-color:#24232B; */
+    margin-top:20vh;
+    margin-left:35vw;
+    margin-right:30vw;
+    height:70vh;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.display
+{
+    background:#24232B;
+    height:10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1vh;
+}
+.menus
+{
+    background-color: #24232B;
+    height:50vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.character-length
+{
+    display: flex;
+    justify-content:space-between;
+    margin:0 2vw 0 2vw;
+    align-items: center;
+}
+#password-length
+{
+    margin:0 2vw 0 2vw;
+}
+#options input
+{
+    margin-left:2vw;
+    margin-right:1vw;
+    margin-bottom:1.5vh;
+}
+.strength-view
+{
+    margin:0 1vw 0 1vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #72707E;
+    background-color: #131218;
+    padding:0 2vh 0 2vh;
+}
+.strength-bar
+{
+
+    display: flex;
+    justify-content:space-between;
+    /* background-color: blue; */
+    width:4vw;
+    align-items: center;
+}
+.bar
+{
+    height:3vh;
+    width:0.5vw;
+    /* background-color: yellow; */
+    border:2px solid white;
+}
+#button
+{
+    margin:0 1vw 0 1vw;
+    width:100%;
+}
+#generate
+{
+    width:94%;
+    height:5vh;  
+}
+.character-length div p
+{
+    font-size: x-large;
+   
+}
+#symbol
+{
+ /* height:5vh; */
+ width:5vh;
+}
+#symbol:hover
+{
+    cursor:pointer;
+}
+#password
+{
+    font-size:40px;
+    text-align: center;
+    margin:2vh;
+    color:#504F57;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    /* width: 15rem; */
+    background-color:#18171F;
+    height:1vh;
+    color: white;
+}
+input[type="range"]::-webkit-slider-thumb
+{
+    -webkit-appearance:none;
+    background-color: white;
+    height:3vh;
+    width:1.5vw;
+    border-radius: 50%;
+}
+.full
+{
+    background:yellow;
+}
+#password
+{
+    overflow-x: auto;
+    
+}
+#password::-webkit-scrollbar
+{
+    display: none;
+}
