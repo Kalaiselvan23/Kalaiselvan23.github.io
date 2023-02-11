@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/disneyclone/static/css/main.3def2eb7.css",
+    "main.js": "/disneyclone/static/js/main.fc81da4c.js",
+    "static/js/787.b6d05d3f.chunk.js": "/disneyclone/static/js/787.b6d05d3f.chunk.js",
+    "static/media/doctorStrange.jpg": "/disneyclone/static/media/doctorStrange.5d2d5e6702777130638b.jpg",
+    "static/media/blackPanther.jpg": "/disneyclone/static/media/blackPanther.f8b44a205e82ad3d177b.jpg",
+    "static/media/badBatch.jpg": "/disneyclone/static/media/badBatch.6315e6ee4b87d73a51e0.jpg",
+    "static/media/Endgame.jpg": "/disneyclone/static/media/Endgame.f1fed488be27502104ea.jpg",
+    "static/media/Inception.jpg": "/disneyclone/static/media/Inception.0bcbb13b105a1ac0ba0c.jpg",
+    "static/media/ThorRagnorok.jpg": "/disneyclone/static/media/ThorRagnorok.a7e7bcdf81e889f4f381.jpg",
+    "static/media/tokyoRevengers.jpg": "/disneyclone/static/media/tokyoRevengers.f646899fa1caa01efd69.jpg",
+    "static/media/avengers.jpg": "/disneyclone/static/media/avengers.6ba0b41bb4c82147544c.jpg",
+    "static/media/Joker.jpg": "/disneyclone/static/media/Joker.74788cac3808791278b1.jpg",
+    "static/media/Blackwidow.jpg": "/disneyclone/static/media/Blackwidow.14cad79ec7c0fdfcadb6.jpg",
+    "static/media/wednesday.jpg": "/disneyclone/static/media/wednesday.280622f6bcfbc9afc3d0.jpg",
+    "static/media/Matrix.jpg": "/disneyclone/static/media/Matrix.5ecf1954fdec1cb0b773.jpg",
+    "static/media/KungfuPanda.jpg": "/disneyclone/static/media/KungfuPanda.d85912015cef0529c8cc.jpg",
+    "static/media/Godzilla.jpg": "/disneyclone/static/media/Godzilla.39e0d1a2f738db8c7790.jpg",
+    "static/media/Marvel.png": "/disneyclone/static/media/Marvel.7c66e653429d46d08206.png",
+    "static/media/Starwars.png": "/disneyclone/static/media/Starwars.da56cd83b4651968be66.png",
+    "static/media/Venom.jpg": "/disneyclone/static/media/Venom.c5cabd0ca041d7fbb4cd.jpg",
+    "static/media/Pixar.png": "/disneyclone/static/media/Pixar.65690bdc256d86796f88.png",
+    "static/media/NatGeo.png": "/disneyclone/static/media/NatGeo.143c8de0263aca4501cb.png",
+    "static/media/logo.svg": "/disneyclone/static/media/logo.8205aae82a3c67ca943e8628e2183b0d.svg",
+    "index.html": "/disneyclone/index.html",
+    "main.3def2eb7.css.map": "/disneyclone/static/css/main.3def2eb7.css.map",
+    "main.fc81da4c.js.map": "/disneyclone/static/js/main.fc81da4c.js.map",
+    "787.b6d05d3f.chunk.js.map": "/disneyclone/static/js/787.b6d05d3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3def2eb7.css",
+    "static/js/main.fc81da4c.js"
+  ]
+}
